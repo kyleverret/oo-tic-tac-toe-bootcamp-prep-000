@@ -112,7 +112,6 @@ end
 def play
   count = 1 
   until count == 10
-
   if over?
     handle_over
     break
