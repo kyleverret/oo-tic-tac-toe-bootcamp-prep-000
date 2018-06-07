@@ -114,7 +114,6 @@ def play
   until count == 10
   if over?
     handle_over
-    break
   else 
         turn
         if draw?
