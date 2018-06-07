@@ -117,8 +117,6 @@ def play
   else 
         turn
         if draw?
-          handle_over
-          break
         end
 end
   count +=1 
