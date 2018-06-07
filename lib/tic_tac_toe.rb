@@ -76,7 +76,7 @@ def won?
     pl1 = combo[0]
     pl2 = combo[1]
     pl3 = combo[2]
-    if @board[pl1] == @board[pl2] && @board[pl3] == @board[pl2]
+    if @board[pl1] == @board[pl2] && @board[pl3] == @board[pl2] && (board[pl1] == "X" || board[pl1] == "O")
       return combo
     end
   end
