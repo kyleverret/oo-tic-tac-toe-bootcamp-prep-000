@@ -110,6 +110,7 @@ end
 
 
 def play
+  display_board
   count = 1 
   until count == 10
   if over?
